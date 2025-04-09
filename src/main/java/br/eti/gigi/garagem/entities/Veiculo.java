@@ -32,6 +32,23 @@ public class Veiculo {
     
     private String avarias;
 
+    public Veiculo() {
+    }
+
+    public Veiculo(long id, String marca, String modelo, String cor, int ano, double km, String linkimagem, String descricao, String avarias) {
+        this.id = id;
+        this.marca = marca;
+        this.modelo = modelo;
+        this.cor = cor;
+        this.ano = ano;
+        this.km = km;
+        this.linkimagem = linkimagem;
+        this.descricao = descricao;
+        this.avarias = avarias;
+    }
+
+    
+    
     public long getId() {
         return id;
     }
